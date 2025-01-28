@@ -42,7 +42,7 @@ eureka:
   client:
     enabled: true
     service-url:
-      defaultZone: http://eureka-service:8761/eureka/
+      defaultZone: http://discovery-service:8761/eureka/
 
 cache:
   memory:
